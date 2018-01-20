@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REMIX_Freighter", "REMIX_Freighter\REMIX_Freighter.csproj", "{615B2E6E-87EB-408B-AD3A-F3D7551E873D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFF929A9-9254-48A0-B309-9F083DD8E626}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REMIX", "REMIX\REMIX.csproj", "{4DAB042E-27CB-422C-8471-FB17FDDEA277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615B2E6E-87EB-408B-AD3A-F3D7551E873D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615B2E6E-87EB-408B-AD3A-F3D7551E873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615B2E6E-87EB-408B-AD3A-F3D7551E873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615B2E6E-87EB-408B-AD3A-F3D7551E873D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAB042E-27CB-422C-8471-FB17FDDEA277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAB042E-27CB-422C-8471-FB17FDDEA277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAB042E-27CB-422C-8471-FB17FDDEA277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAB042E-27CB-422C-8471-FB17FDDEA277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB8C474-EFA1-4936-A5E2-0296CEC614E6}
+	EndGlobalSection
+EndGlobal
