@@ -6,28 +6,24 @@ This repository will be release the [MiNET](https://github.com/NiclasOlofsson) P
 > You can save to successfully player datas and extend the functionality using the API.
 
 <B>Required plugins:</B> Freighter does not require anything. <br>
-[Download]() / [Document]() <br>
 
 ---
 ### Oper
 > Add OP, Whitelist and Blacklist! <- TODO!
 
 <B>Required plugins:</B> Oper does not require anything. <br>
-[Download]() / [Document]() <br>
 
 ---
 ### Permisser
 > Manages the commands available to the player. <- TODO!
 
 <B>Required plugins:</B> Freighter, Oper <br>
-[Download]() / [Document]() <br>
 
 ---
 ### Retracer
 > Register existing [PocketMine](https://pmmp.io) methods with extension methods. <- TODO!
 
 <B>Required plugins:</B> Retracer does not require anything. <br>
-[Download]() / [Document]() <br>
 
 ---
 
