@@ -23,8 +23,12 @@ namespace REMIX
         {
             LEF = new LocalEnvironmentFile(this);
             BaseCamp = LEF.Get("local");
-            
-            if(!String.IsNullOrEmpty(BaseCamp) || File.Exists(BaseCamp))
+            String conf = Path.Combine(BaseCamp, "server.conf");
+
+            if (File.Exists(conf)) File.Delete(conf);
+            File.Move(Path.Combine(Directory.GetCurrentDirectory(), "server.conf"), conf);
+
+            if (!String.IsNullOrEmpty(BaseCamp) || File.Exists(BaseCamp))
             {
                 Hide();
                 Process.Start(Path.Combine(BaseCamp, "MiNET.Service.exe"));

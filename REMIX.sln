@@ -11,6 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REMIX", "REMIX\REMIX.csproj", "{4DAB042E-27CB-422C-8471-FB17FDDEA277}"
+	ProjectSection(ProjectDependencies) = postProject
+		{615B2E6E-87EB-408B-AD3A-F3D7551E873D} = {615B2E6E-87EB-408B-AD3A-F3D7551E873D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
